@@ -1,0 +1,15 @@
+/* Basic css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  padding: 5px;
+}
+.title {
+  color: rgb(66, 173, 66);
+  text-align: center;
+  border-bottom: 5px double rgb(218, 215, 215);
+}
+
+/* content css */
