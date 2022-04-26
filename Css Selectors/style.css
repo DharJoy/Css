@@ -1,0 +1,50 @@
+/* Basic css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+}
+.title {
+  color: rgb(66, 173, 66);
+  text-align: center;
+  border-bottom: 5px double rgb(218, 215, 215);
+}
+
+/* content css */
+* {
+  padding: 10px;
+}
+img {
+  width: 100%;
+}
+
+h5 {
+  color: green;
+}
+
+#text {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-yellow {
+  color: yellow;
+}
+
+#text-2 {
+  background-color: #000;
+}
+
+#text-2 .t-green {
+  color: green;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+h3,
+h5 {
+  border-bottom: 2px solid #dedede;
+}
