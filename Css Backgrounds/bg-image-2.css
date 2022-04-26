@@ -1,0 +1,63 @@
+/* Basic css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  padding: 10px;
+}
+.title {
+  color: rgb(66, 173, 66);
+  text-align: center;
+  border-bottom: 5px double rgb(218, 215, 215);
+  margin-bottom: 100px;
+}
+
+/* content css */
+.box1 {
+  width: 400px;
+  height: 300px;
+  border: 20px double tomato;
+  background-image: url(../Images/penguin.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  /* background size */
+  /* The background-size property specifies the size of the background images. */
+
+  background-size: contain; /* always show the whole image, even if that leaves a little space to the sides or bottom. */
+  background-size: cover; /*  image always covers the entire container */
+  background-size: 200px;
+  background-size: 200px 100px;
+  background-size: auto;
+}
+.box2 {
+  width: 300px;
+  height: 200px;
+  border: 20px dashed rebeccapurple;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+
+  /* background origin */
+  /* The background-origin property specifies the origin position (the background positioning area) of a background image. */
+
+  padding: 10px;
+  background-origin: padding-box;
+  background-origin: border-box;
+  background-origin: content-box;
+}
+
+.box3 {
+  width: 400px;
+  height: 100px;
+  border: 10px dashed lawngreen;
+  padding: 10px;
+  background-color: lightblue;
+
+  /* background clip */
+  /* The background-clip property defines how far the background (color or image) should extend within an element. */
+
+  background-clip: border-box;
+  background-clip: padding-box;
+  background-clip: content-box;
+}
