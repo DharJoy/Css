@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="background.css" />
+    <title>Css-background-clip</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <div class="title">
+      <h1>Css background-clip</h1>
+    </div>
+    <!-- content -->
+    <h3>background-clip</h3>
+    <p>
+      The background-clip property defines how far the background (color or
+      image) should extend within an element.
+    </p>
+
+    <!-- padding-box -->
+    <div>
+      <p>
+        <b>padding-box:</b> The background extends to the inside edge of the
+        border
+      </p>
+      <div class="padding-box-clip">
+        <p class="text">background-clip:padding-box</p>
+      </div>
+    </div>
+    <!-- border-box -->
+    <div>
+      <p><b>border-box:</b> The background extends behind the border</p>
+      <div class="border-box-clip">
+        <p class="text">background-clip:border-box</p>
+      </div>
+    </div>
+    <!-- content-box-->
+    <div>
+      <p>
+        <b>content-box:</b> The background extends to the edge of the content
+        box
+      </p>
+      <div class="content-box-clip">
+        <p class="text">background-clip:content-box</p>
+      </div>
+    </div>
+  </body>
+</html>

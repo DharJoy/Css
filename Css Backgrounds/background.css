@@ -1,0 +1,290 @@
+/* Basic css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  padding: 10px;
+}
+.title {
+  color: rgb(66, 173, 66);
+  text-align: center;
+  border-bottom: 5px double rgb(218, 215, 215);
+}
+img {
+  width: 100%;
+}
+
+/* content css */
+
+/* background-color */
+.box1 {
+  width: 300px;
+  height: 200px;
+  border: 4px double dodgerblue;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #f8cb2e;
+  font-size: 20px;
+}
+.box2 {
+  width: 300px;
+  height: 200px;
+  border: 4px double dodgerblue;
+  margin-top: 15px;
+  text-align: center;
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  font-size: 20px;
+}
+.box3 {
+  width: 300px;
+  height: 200px;
+  border: 4px double dodgerblue;
+  margin-top: 15px;
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgba(31, 153, 208, 1) 23%,
+    rgba(34, 193, 195, 1) 43%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-size: 20px;
+}
+
+/* background -image  */
+.bg-img {
+  width: 500px;
+  height: 300px;
+  border: 3px double green;
+  text-align: center;
+  margin-top: 10px;
+  color: yellow;
+  /* set background Image */
+  background-image: url(../Images/elephant.png);
+}
+
+.bg-img-color {
+  width: 500px;
+  height: 300px;
+  border: 3px double green;
+  text-align: center;
+  margin-top: 10px;
+  color: yellow;
+  /* set background Image */
+  background: rgb(236, 24, 24) url(../Images/elephant.png);
+}
+
+/* background-size */
+
+.bg-size {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  text-align: center;
+  color: rgb(0, 255, 136);
+  font-size: 20px;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+
+  /* background-size:cover */
+  background-size: cover;
+}
+.bg-size-2 {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  text-align: center;
+  color: rgb(0, 255, 136);
+  font-size: 20px;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+
+  /* background-size:contain */
+  background-size: contain;
+}
+.bg-size-3 {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  text-align: center;
+  color: rgb(0, 255, 136);
+  font-size: 20px;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+
+  /* background-size:units */
+  background-size: 40%;
+}
+
+/* background position */
+.bg-position {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  color: greenyellow;
+  text-align: center;
+
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-position: 30% 40%;
+}
+.bg-position-2 {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  color: greenyellow;
+  text-align: center;
+
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-position: 60px 50px;
+}
+.bg-position-3,
+.bg-position-4,
+.bg-position-5,
+.bg-position-6,
+.bg-position-7,
+.bg-position-8,
+.bg-position-9,
+.bg-position-10,
+.bg-position-11 {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #0e0e0e;
+  color: greenyellow;
+  text-align: center;
+
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+}
+.bg-position-3 {
+  background-position: top left;
+}
+.bg-position-4 {
+  background-position: top center;
+}
+.bg-position-5 {
+  background-position: top right;
+}
+.bg-position-6 {
+  background-position: center left;
+}
+.bg-position-7 {
+  background-position: center center;
+}
+.bg-position-8 {
+  background-position: center right;
+}
+.bg-position-9 {
+  background-position: bottom left;
+}
+.bg-position-10 {
+  background-position: bottom right;
+}
+.bg-position-11 {
+  background-position: bottom center;
+}
+
+/* background attachment */
+
+.bg-attachment-1 {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #0e0e0e;
+  color: greenyellow;
+  text-align: center;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-attachment-2 {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #0e0e0e;
+  color: greenyellow;
+  text-align: center;
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+/* background-repeat */
+.bg-repeat-1,
+.bg-repeat-2,
+.bg-repeat-3 {
+  width: 400px;
+  height: 200px;
+  border: 2px solid green;
+  text-align: center;
+}
+.text {
+  background-color: yellowgreen;
+  font-size: 20px;
+}
+
+.bg-repeat-1 {
+  background-image: url(../Images/ninja.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.bg-repeat-2 {
+  background-image: url(../Images/ninja.png);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+.bg-repeat-3 {
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* background-origin */
+.padding-box,
+.border-box,
+.content-box {
+  width: 400px;
+  height: 200px;
+  border: 15px solid green;
+  text-align: center;
+  padding: 20px;
+}
+.padding-box {
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+.border-box {
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+.content-box {
+  background-image: url(../Images/ninja.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+/* background-clip */
+.padding-box-clip,
+.border-box-clip,
+.content-box-clip {
+  width: 400px;
+  height: 200px;
+  border: 15px double green;
+  text-align: center;
+  padding: 20px;
+}
+.padding-box-clip {
+  background-color: aqua;
+  background-clip: padding-box;
+}
+.border-box-clip {
+  background-color: aqua;
+  background-clip: border-box;
+}
+.content-box-clip {
+  background-color: aqua;
+  background-clip: content-box;
+}
