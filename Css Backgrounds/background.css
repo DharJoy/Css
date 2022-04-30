@@ -14,6 +14,12 @@ body {
 img {
   width: 100%;
 }
+code {
+  margin-top: 10px;
+  color: green;
+  font-size: 18px;
+  background: #eee;
+}
 
 /* content css */
 
@@ -287,4 +293,14 @@ img {
 .content-box-clip {
   background-color: aqua;
   background-clip: content-box;
+}
+
+/* background shorthand */
+
+.bg {
+  width: 100%;
+  height: 70vh;
+  border: 8px double rgb(255, 45, 30);
+  background: rgba(34, 193, 195, 1) url(../Images/ninja.png) no-repeat fixed
+    center center;
 }
